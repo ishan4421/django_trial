@@ -41,3 +41,4 @@ class PortfolioStock(models.Model):
 # Adding the many-to-many relationship with 'through' option
 Portfolio.stocks = models.ManyToManyField(Stock, through=PortfolioStock, related_name="portfolios")
 
+#adding this commnt for practise
